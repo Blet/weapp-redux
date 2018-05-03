@@ -9,12 +9,22 @@ const pageConfig = {
   },
   //事件处理函数
   onLoad: function () {
-  
+
+    setTimeout(() => {
+      this.dispatch({ type: 'INCREMENT' });
+      wx.navigateTo({
+        url: '../logs/logs',
+      });
+    }, 1000);
+
+    setTimeout(() => {
+
+    }, 100)
   },
 }
+
 Page(connect(
   (state) => {
-    console.log(state);
     return {
       count: state
     }

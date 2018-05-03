@@ -1,0 +1,42 @@
+{
+  "name": "weapp-redux",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blet/weapp-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blet/weapp-redux/issues"
+  },
+  "homepage": "https://github.com/Blet/weapp-redux#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-qcloud-upload": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^4.0.0",
+    "gulp-sftp": "^0.1.5",
+    "gulp-util": "^3.0.8",
+    "postcss-font-base64": "^1.0.4",
+    "postcss-lazysprite": "^1.8.0",
+    "postcss-px2rpx": "0.0.4",
+    "yargs": "^11.0.0"
+  }
+}

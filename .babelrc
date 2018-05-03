@@ -1,0 +1,15 @@
+{
+    "plugins": [
+        "transform-es2015-modules-commonjs"
+    ],
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "node": "7.5"
+                }
+            }
+        ]
+    ]
+}

@@ -1,4 +1,5 @@
 //app.js
+let regeneratorRuntime = require('./lib/regenerator-runtime/runtime-module');
 let redux = require("./lib/redux.js");
 let appReduxBinding = require("./lib/weapp-redux.js");
 let thunk = require('./lib/redux-thunk.js');

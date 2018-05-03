@@ -9,19 +9,16 @@ const pageConfig = {
   },
   //事件处理函数
   onLoad: function () {
-    wx.navigateTo({
-      url: '../logs/logs',
-    });
-    setTimeout(()=>{
-      this.dispatch({ type: 'INCREMENT' });
-    },3000)
+    setTimeout(() => {
+      console.log(this.data);
+    }, 2000)
   },
 }
-
 Page(connect(
-  (state)=>{
+  (state) => {
+    console.log(state);
     return {
-     count: state
+      count: state
     }
   }
 )(pageConfig))
